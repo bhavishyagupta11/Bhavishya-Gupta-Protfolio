@@ -126,7 +126,7 @@ To deploy your own fork:
 
 <div align="center">
 
-*Designed & Built by Bhavishya Gupta · 2025 · BG://*
+*Designed & Built by Bhavishya Gupta · 2026 · BG://*
 
 ⭐ If you like this portfolio, consider giving the repo a star!
 
