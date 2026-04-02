@@ -171,33 +171,6 @@ section{position:relative;z-index:10;min-height:100vh}
 .diff-cnt{font-family:var(--mono);font-size:.55rem;color:var(--dim);width:26px;text-align:right}
 .pl-feats{margin-top:.75rem;font-family:var(--mono);font-size:.6rem;color:var(--dim);line-height:1.85}
 
-/* ── HEATMAP ── */
-.hm-section{margin-top:2.5rem}
-.hm-label{font-family:var(--disp);font-size:.74rem;letter-spacing:3px;color:var(--g);text-transform:uppercase;margin-bottom:.4rem;text-shadow:0 0 10px rgba(0,255,65,.3)}
-.hm-sub{font-family:var(--mono);font-size:.59rem;color:var(--dim);letter-spacing:2px;margin-bottom:1.3rem}
-.hm-card{background:rgba(0,8,3,.84);border:1px solid rgba(0,255,65,.14);padding:1.7rem 1.7rem 1.3rem;position:relative}
-.hm-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent)}
-.hm-meta{display:flex;gap:2.2rem;flex-wrap:wrap;margin-bottom:1.5rem}
-.hm-num{font-family:var(--disp);font-size:1.4rem;font-weight:700;color:var(--g);text-shadow:0 0 14px rgba(0,255,65,.4)}
-.hm-lbl{font-family:var(--mono);font-size:.55rem;color:var(--dim);letter-spacing:2px;text-transform:uppercase}
-.hm-scroll{overflow-x:auto;padding-bottom:.5rem}
-.hm-grid{display:flex;gap:3px;width:max-content}
-.hm-col{display:flex;flex-direction:column;gap:3px}
-.hm-cell{width:11px;height:11px;border-radius:2px;background:rgba(0,255,65,.05);cursor:default;position:relative;transition:transform .15s}
-.hm-cell:hover{transform:scale(1.5);z-index:10}
-.hm-cell[data-l="1"]{background:rgba(0,200,50,.22)}
-.hm-cell[data-l="2"]{background:rgba(0,230,55,.44)}
-.hm-cell[data-l="3"]{background:rgba(0,255,65,.68);box-shadow:0 0 4px rgba(0,255,65,.4)}
-.hm-cell[data-l="4"]{background:rgba(0,255,65,.92);box-shadow:0 0 8px rgba(0,255,65,.65)}
-.hm-cell::after{content:attr(data-tip);position:absolute;bottom:130%;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.92);border:1px solid rgba(0,255,65,.28);color:var(--g);font-family:var(--mono);font-size:.55rem;padding:2px 7px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s;z-index:20;letter-spacing:1px}
-.hm-cell:hover::after{opacity:1}
-.hm-months{display:flex;gap:0;margin-top:5px;font-family:var(--mono);font-size:.52rem;color:rgba(136,136,136,.7);width:max-content}
-.hm-mo{width:91px}
-.hm-legend{display:flex;align-items:center;gap:.45rem;margin-top:.85rem;justify-content:flex-end}
-.lg-lbl{font-family:var(--mono);font-size:.54rem;color:var(--dim)}
-.lg-cells{display:flex;gap:3px}
-.lg-cell{width:11px;height:11px;border-radius:2px}
-
 /* ── PROJECTS ── */
 #projects{background:transparent}
 .proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(370px,1fr));gap:2rem}
@@ -294,7 +267,7 @@ footer span{color:var(--g)}
     <h1 class="hero-name" data-text="BHAVISHYA GUPTA">
       BHAVISHYA<br><span class="g">GUPTA</span>
     </h1>
-    <p class="hero-tag">LOGICAL FULL-STACK DEVELOPER &nbsp;|&nbsp; DSA ENTHUSIAST &nbsp;|&nbsp; EXPLORING AI &amp; ML</p>
+    <p class="hero-tag">DSA &nbsp;|&nbsp; GENETIC AI &nbsp;|&nbsp; WEB DEVELOPMENT</p>
     <div class="tw-wrap">
       <span class="tw-pre">$ working_on &gt;</span>
       <span id="tw"></span>
@@ -305,9 +278,9 @@ footer span{color:var(--g)}
     </div>
     <div class="hero-stats">
       <div><div class="stat-num">500+</div><div class="stat-lbl">Problems Solved</div></div>
-      <div><div class="stat-num">326</div><div class="stat-lbl">LeetCode AC</div></div>
-      <div><div class="stat-num">9.20</div><div class="stat-lbl">GPA</div></div>
-      <div><div class="stat-num">Top 12%</div><div class="stat-lbl">LC Global</div></div>
+      <div><div class="stat-num">380+</div><div class="stat-lbl">LeetCode Solved</div></div>
+      <div><div class="stat-num">9.23</div><div class="stat-lbl">GPA</div></div>
+      <div><div class="stat-num">Top 11.03%</div><div class="stat-lbl">LC Global</div></div>
     </div>
   </div>
   <div class="scroll-hint"><div class="scroll-line"></div>scroll</div>
@@ -320,12 +293,12 @@ footer span{color:var(--g)}
       <div class="reveal">
         <p class="sec-badge" style="color:var(--b)">// about.init()</p>
         <h2 class="sec-title">Who Am <span style="color:var(--b)">I?</span></h2>
-        <p class="about-txt">I am a <span class="hl">Computer Science undergraduate</span> specialising in AI &amp; ML with a strong foundation in Data Structures, Algorithms, and Full-Stack Web Development.</p>
-        <p class="about-txt">I enjoy building <span class="hl">scalable, role-based web applications</span> and solving complex problems through clean, logical code. I actively explore <span class="hl">Machine Learning and System Design</span> to expand my engineering perspective.</p>
+        <p class="about-txt">I am a <span class="hl">Computer Science undergraduate</span> specialising in Genetic AI, with strong foundations in Data Structures, Algorithms, and Full-Stack Web Development.</p>
+        <p class="about-txt">I build <span class="hl">scalable systems</span> and solve complex problems through clean, efficient code, actively exploring <span class="hl">System Design</span> to create intelligent, production-ready applications.</p>
         <div class="pills">
           <span class="pill">Problem Solver</span>
           <span class="pill">System Design</span>
-          <span class="pill">AI Explorer</span>
+          <span class="pill">Genetic AI</span>
           <span class="pill">Full-Stack</span>
           <span class="pill">DSA Enthusiast</span>
         </div>
@@ -337,10 +310,10 @@ footer span{color:var(--g)}
             <div><span class="tp">❯</span> <span class="tc">whoami</span></div>
             <div class="to">→ bhavishya_gupta</div><br>
             <div><span class="tp">❯</span> <span class="tc">cat education.txt</span></div>
-            <div class="ts">✓ B.Tech CSE (AI &amp; ML) — JECRC University</div>
-            <div class="ts">✓ GPA: 9.20 / 10.0</div><br>
+            <div class="ts">✓ B.Tech CSE (Genetic AI) — JECRC University</div>
+            <div class="ts">✓ GPA: 9.23 / 10.0</div><br>
             <div><span class="tp">❯</span> <span class="tc">ls interests/</span></div>
-            <div class="th">DSA/&nbsp; ML/&nbsp; WebDev/&nbsp; SystemDesign/</div><br>
+            <div class="th">DSA/&nbsp; GeneticAI/&nbsp; WebDev/&nbsp; SystemDesign/</div><br>
             <div><span class="tp">❯</span> <span class="tc">git log --oneline</span></div>
             <div class="tm">feat: Data Analyst Intern @ Samatrix</div>
             <div class="tm">feat: CodeVengers platform shipped</div>
@@ -417,7 +390,7 @@ footer span{color:var(--g)}
         <div class="sk-bar-wrap"><div class="sk-bar-lbl"><span>Proficiency</span><span>82%</span></div><div class="sk-bar"><div class="sk-fill" data-w="82"></div></div></div>
       </div>
       <div class="sk-card reveal" style="transition-delay:.3s">
-        <div class="sk-icon">🧠</div><div class="sk-title">AI / ML</div>
+        <div class="sk-icon">🧠</div><div class="sk-title">Genetic AI</div>
         <div class="sk-tags"><span class="sk-tag">Pandas</span><span class="sk-tag">NumPy</span><span class="sk-tag">Scikit-Learn</span><span class="sk-tag">TensorFlow</span><span class="sk-tag">Matplotlib</span><span class="sk-tag">Neural Networks</span><span class="sk-tag">Deep Learning</span></div>
         <div class="sk-bar-wrap"><div class="sk-bar-lbl"><span>Proficiency</span><span>78%</span></div><div class="sk-bar"><div class="sk-fill" data-w="78"></div></div></div>
       </div>
@@ -451,15 +424,15 @@ footer span{color:var(--g)}
           <div><div class="pl-name">LeetCode</div><div class="pl-handle">@bhavishyagupta001</div></div>
         </div>
         <div class="pl-stats">
-          <div><div class="pl-num">326</div><div class="pl-lbl">Solved</div></div>
-          <div><div class="pl-num">1,705</div><div class="pl-lbl">Contest Rating</div></div>
-          <div><div class="pl-num">147</div><div class="pl-lbl">Max Streak</div></div>
-          <div><div class="pl-num">Top 12%</div><div class="pl-lbl">Global</div></div>
+          <div><div class="pl-num">380+</div><div class="pl-lbl">Solved</div></div>
+          <div><div class="pl-num">1,733</div><div class="pl-lbl">Contest Rating</div></div>
+          <div><div class="pl-num">180+</div><div class="pl-lbl">Max Streak</div></div>
+          <div><div class="pl-num">Top 11.03%</div><div class="pl-lbl">Global</div></div>
         </div>
         <div class="diff-wrap">
-          <div class="diff-row"><span class="diff-lbl" style="color:#00b8a3">Easy</span><div class="diff-bar"><div class="diff-fill" data-w="51" style="background:#00b8a3"></div></div><span class="diff-cnt">95</span></div>
-          <div class="diff-row"><span class="diff-lbl" style="color:#ffc01e">Med</span><div class="diff-bar"><div class="diff-fill" data-w="41" style="background:#ffc01e"></div></div><span class="diff-cnt">167</span></div>
-          <div class="diff-row"><span class="diff-lbl" style="color:#ef4743">Hard</span><div class="diff-bar"><div class="diff-fill" data-w="35" style="background:#ef4743"></div></div><span class="diff-cnt">64</span></div>
+          <div class="diff-row"><span class="diff-lbl" style="color:#00b8a3">Easy</span><div class="diff-bar"><div class="diff-fill" data-w="55" style="background:#00b8a3"></div></div><span class="diff-cnt">110+</span></div>
+          <div class="diff-row"><span class="diff-lbl" style="color:#ffc01e">Med</span><div class="diff-bar"><div class="diff-fill" data-w="78" style="background:#ffc01e"></div></div><span class="diff-cnt">200+</span></div>
+          <div class="diff-row"><span class="diff-lbl" style="color:#ef4743">Hard</span><div class="diff-bar"><div class="diff-fill" data-w="42" style="background:#ef4743"></div></div><span class="diff-cnt">75+</span></div>
         </div>
       </a>
       <a href="https://www.geeksforgeeks.org/profile/bhavishyarqb" target="_blank" class="pl-card gf-c reveal" style="transition-delay:.1s">
@@ -491,35 +464,6 @@ footer span{color:var(--g)}
       </a>
     </div>
 
-    <!-- HEATMAP -->
-    <div class="hm-section reveal">
-      <div class="hm-label">// LeetCode Activity — Past 12 Months</div>
-      <div class="hm-sub">849 submissions &nbsp;·&nbsp; 244 active days &nbsp;·&nbsp; 147 day max streak &nbsp;·&nbsp; 7 badges</div>
-      <div class="hm-card">
-        <div class="hm-meta">
-          <div><div class="hm-num">849</div><div class="hm-lbl">Submissions</div></div>
-          <div><div class="hm-num">244</div><div class="hm-lbl">Active Days</div></div>
-          <div><div class="hm-num">147</div><div class="hm-lbl">Max Streak</div></div>
-          <div><div class="hm-num">7</div><div class="hm-lbl">Badges</div></div>
-          <div><div class="hm-num" style="color:var(--o);text-shadow:0 0 12px rgba(255,149,0,.5)">50 Days</div><div class="hm-lbl">Latest Badge</div></div>
-        </div>
-        <div class="hm-scroll">
-          <div id="hmGrid" class="hm-grid"></div>
-          <div id="hmMonths" class="hm-months"></div>
-        </div>
-        <div class="hm-legend">
-          <span class="lg-lbl">Less</span>
-          <div class="lg-cells">
-            <div class="lg-cell" style="background:rgba(0,255,65,.05)"></div>
-            <div class="lg-cell" style="background:rgba(0,200,50,.22)"></div>
-            <div class="lg-cell" style="background:rgba(0,230,55,.44)"></div>
-            <div class="lg-cell" style="background:rgba(0,255,65,.68);box-shadow:0 0 4px rgba(0,255,65,.4)"></div>
-            <div class="lg-cell" style="background:rgba(0,255,65,.92);box-shadow:0 0 8px rgba(0,255,65,.65)"></div>
-          </div>
-          <span class="lg-lbl">More</span>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -547,6 +491,30 @@ footer span{color:var(--g)}
         <a href="https://github.com/bhavishyagupta11" target="_blank" class="proj-link">View on GitHub →</a>
         <div class="proj-tech"><span>React</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Mongoose</span></div>
       </div>
+      <div class="proj-card reveal" style="transition-delay:.3s">
+        <div class="proj-num">03</div>
+        <div class="proj-tags"><span class="proj-tag">AI Platform</span><span class="proj-tag">Code Review</span><span class="proj-tag">Full-Stack</span></div>
+        <h3 class="proj-title">StackMind</h3>
+        <p class="proj-desc">An AI-powered code review platform with a VS Code-like editor, delivering structured insights on bugs, complexity, and optimizations. Features secure JWT auth, persistent review history, and an interview mode for deeper learning.</p>
+        <a href="https://github.com/bhavishyagupta11" target="_blank" class="proj-link">View on GitHub →</a>
+        <div class="proj-tech"><span>React</span><span>Vite</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Tailwind</span><span>Monaco</span><span>GeminiAPI</span></div>
+      </div>
+      <div class="proj-card reveal" style="transition-delay:.4s">
+        <div class="proj-num">04</div>
+        <div class="proj-tags"><span class="proj-tag">MERN Stack</span><span class="proj-tag">Gmail Clone</span><span class="proj-tag">API Integration</span></div>
+        <h3 class="proj-title">Gmail Clone</h3>
+        <p class="proj-desc">A production-style Gmail clone with JWT authentication, folder-based email management, and real-time Gmail API sync. Supports compose, starred/spam actions, and SMTP fallback for reliable email delivery.</p>
+        <a href="https://github.com/bhavishyagupta11" target="_blank" class="proj-link">View on GitHub →</a>
+        <div class="proj-tech"><span>React</span><span>Redux</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Tailwind</span><span>GmailAPI</span><span>SMTP</span></div>
+      </div>
+      <div class="proj-card reveal" style="transition-delay:.5s">
+        <div class="proj-num">05</div>
+        <div class="proj-tags"><span class="proj-tag">Frontend App</span><span class="proj-tag">Drag &amp; Drop</span><span class="proj-tag">State Mgmt</span></div>
+        <h3 class="proj-title">Interactive Question Sheet</h3>
+        <p class="proj-desc">A single-page application for managing hierarchical questions with topics and sub-topics. Supports full CRUD operations, multi-level drag-and-drop reordering, and persistent state via a simulated backend API.</p>
+        <a href="https://github.com/bhavishyagupta11" target="_blank" class="proj-link">View on GitHub →</a>
+        <div class="proj-tech"><span>React</span><span>Vite</span><span>Zustand</span><span>Tailwind</span><span>DnD</span><span>localStorage</span></div>
+      </div>
     </div>
   </div>
 </section>
@@ -560,10 +528,10 @@ footer span{color:var(--g)}
     </div>
     <div class="certs-grid">
 
-      <!-- AI / ML Certifications -->
+      <!-- Genetic AI Certifications -->
       <div class="cert-card ai reveal">
-        <div class="cert-category" style="color:var(--p)"><div class="cert-dot" style="background:var(--p);box-shadow:0 0 8px var(--p)"></div>AI &amp; Machine Learning</div>
-        <div class="cert-title">AI / ML Certifications</div>
+        <div class="cert-category" style="color:var(--p)"><div class="cert-dot" style="background:var(--p);box-shadow:0 0 8px var(--p)"></div>Genetic AI</div>
+        <div class="cert-title">Genetic AI Certifications</div>
         <ul class="cert-list">
           <li>Foundation to AI</li>
           <li>Data Science and Analytics</li>
@@ -571,7 +539,7 @@ footer span{color:var(--g)}
           <li>R Programming for Data Science</li>
           <li>Probability Modelling Using Python</li>
           <li>Neural Networks and Deep Learning</li>
-          <li>Machine Learning and Pattern Recognition</li>
+          <li>Genetic AI and Pattern Recognition</li>
         </ul>
       </div>
 
@@ -595,7 +563,7 @@ footer span{color:var(--g)}
           <li style="color:rgba(255,149,0,.9)">🏆 Winner — CodeHunt, JECRC University (Ranked 1st out of all participants)</li>
           <li>Finalist — CodeAThon 1.0, JECRC University (multi-round DSA contest, solved 2 medium problems in finals)</li>
           <li>Selected among top 120 of 2800+ students for ServiceNow University Certification (Ongoing)</li>
-          <li>LeetCode: Rating 1705 · Contest attended 7 · Global Top 12.79%</li>
+          <li>LeetCode: Rating 1733 · Global Top 11.03% · 380+ solved</li>
           <li>500+ Problems solved across LeetCode, GFG, and Code360</li>
         </ul>
       </div>
@@ -646,7 +614,7 @@ document.addEventListener('mousemove', function(e) {
 });
 
 /* ── TYPEWRITER ── */
-var WORDS = ['scalable web apps','DSA problems','ML models','EDA dashboards','full-stack solutions'];
+var WORDS = ['scalable web apps','DSA problems','Genetic AI systems','EDA dashboards','full-stack solutions'];
 var wi = 0, ci = 0, deleting = false;
 var twEl = document.getElementById('tw');
 function tick() {
@@ -861,46 +829,6 @@ function render() {
   requestAnimationFrame(render);
 }
 
-/* ── HEATMAP ── */
-function buildHeatmap() {
-  var grid   = document.getElementById('hmGrid');
-  var months = document.getElementById('hmMonths');
-  if (!grid) return;
-  var WEEKS=53, DAYS=WEEKS*7;
-  var today=new Date();
-  var MN=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  var data=[];
-  for (var i=DAYS-1; i>=0; i--) {
-    var d=new Date(today); d.setDate(d.getDate()-i);
-    var mo=d.getMonth(), busy=(mo>=6||mo<=1);
-    var r=Math.random(), lvl=0;
-    if (busy)  { if(r>.28) lvl=r>.72?(r>.9?4:3):(r>.52?2:1); }
-    else       { if(r>.62) lvl=r>.86?2:1; }
-    data.push({ date:new Date(d), lvl:lvl });
-  }
-  var lastMo=-1, moMap={};
-  for (var w=0; w<WEEKS; w++) {
-    var col=document.createElement('div'); col.className='hm-col';
-    for (var dd=0; dd<7; dd++) {
-      var idx=w*7+dd; if(idx>=data.length) break;
-      var item=data[idx];
-      var cell=document.createElement('div'); cell.className='hm-cell';
-      if (item.lvl>0) cell.setAttribute('data-l',item.lvl);
-      var ds=item.date;
-      cell.setAttribute('data-tip', MN[ds.getMonth()]+' '+ds.getDate()+': '+(item.lvl===0?'No activity':item.lvl===1?'1-2 submissions':item.lvl===2?'3-5 submissions':item.lvl===3?'6-9 submissions':'10+ submissions'));
-      col.appendChild(cell);
-      var mo=ds.getMonth();
-      if (mo!==lastMo) { moMap[w]=MN[mo]; lastMo=mo; }
-    }
-    grid.appendChild(col);
-  }
-  for (var w2=0; w2<WEEKS; w2++) {
-    var sp=document.createElement('span'); sp.className='hm-mo';
-    sp.textContent=moMap[w2]||'';
-    months.appendChild(sp);
-  }
-}
-
 /* ── SCROLL REVEAL ── */
 function setupReveal() {
   var els = document.querySelectorAll('.reveal');
@@ -920,7 +848,6 @@ function setupReveal() {
 /* ── INIT — wait for full page load ── */
 window.addEventListener('load', function() {
   resizeAll();
-  buildHeatmap();
   setupReveal();
   render();
 });
